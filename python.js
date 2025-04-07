@@ -148,6 +148,56 @@ let pythontest = [
     "answer": 2
   },
   {
+    "question": "What is the output of: print(0.1 + 0.2 == 0.3)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 1
+  },
+  {
+    "question": "What does this print? print('5' * 2)",
+    "options": ["10", "55", "'10'", "'55'"],
+    "answer": 3
+  },
+  {
+    "question": "What will be the output of: print(bool('False'))?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of: print([] == False)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 1
+  },
+  {
+    "question": "What is the result of: print('2' + 2)?",
+    "options": ["'22'", "4", "TypeError", "'4'"],
+    "answer": 2
+  },
+  {
+    "question": "What does: print(10/0) result in?",
+    "options": ["0", "Infinity", "ZeroDivisionError", "None"],
+    "answer": 2
+  },
+  {
+    "question": "What is the output? print(None == 0)",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of: print(type([]) is list)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 0
+  },
+  {
+    "question": "What is the result of: print(bool(''))?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output? print([1, 2, 3] > [1, 2, 2])",
+    "options": ["True", "False", "Error", "None"],
+    "answer": 0
+  },
+  {
     "question": "What is the default value of the argument 'b' in the following function: def func(a, b=2): return a + b?",
     "options": [
       "1",
@@ -286,7 +336,7 @@ let pythontest = [
       "None of the above"
     ],
     "answer": 0
-  }
+  },
   {
     "question": "What is list comprehension?"
     "options": [
