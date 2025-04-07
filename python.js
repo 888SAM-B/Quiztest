@@ -338,7 +338,7 @@ let pythontest = [
     "answer": 0
   },
   {
-    "question": "What is list comprehension?"
+    "question": "What is list comprehension?",
     "options": [
       "A concise way to create lists using a single line of code.",
       "A way to create lists using loops.",
