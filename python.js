@@ -1006,6 +1006,261 @@ let javatest = [
     "answer": 1
   }
 ];
+let ctest = [
+  {
+    "question": "What is the size of an `int` in C on a 32-bit system?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "1 byte"],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to define a constant in C?",
+    "options": ["const", "final", "static", "define"],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of `printf(\"%d\", 5 + 3);`?",
+    "options": ["8", "53", "5 + 3", "Error"],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol is used to denote a pointer in C?",
+    "options": ["&", "*", "@", "#"],
+    "answer": 1
+  },
+  {
+    "question": "What is the entry point of a C program?",
+    "options": ["start()", "main()", "run()", "init()"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is a valid variable name in C?",
+    "options": ["1var", "_var", "var-name", "class"],
+    "answer": 1
+  },
+  {
+    "question": "What does the `&` operator do in C?",
+    "options": ["Dereferences a pointer", "Returns the address of a variable", "Performs a bitwise AND", "Increments a value"],
+    "answer": 1
+  },
+  {
+    "question": "Which header file is required for input/output operations in C?",
+    "options": ["<stdlib.h>", "<stdio.h>", "<string.h>", "<math.h>"],
+    "answer": 1
+  },
+  {
+    "question": "What is the default return type of a function in C if not specified?",
+    "options": ["void", "int", "float", "char"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is not a primitive data type in C?",
+    "options": ["int", "float", "string", "char"],
+    "answer": 2
+  },
+  {
+    "question": "What does the `sizeof` operator return?",
+    "options": ["Size of a variable in bytes", "Value of a variable", "Address of a variable", "Type of a variable"],
+    "answer": 0
+  },
+  {
+    "question": "Which loop executes at least once regardless of the condition?",
+    "options": ["for", "while", "do-while", "None"],
+    "answer": 2
+  },
+  {
+    "question": "What does the `break` statement do?",
+    "options": ["Skips an iteration", "Exits the loop", "Restarts the loop", "Pauses execution"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator is used to access the value at a pointer?",
+    "options": ["&", "*", "->", "."],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the `void` keyword?",
+    "options": ["To declare a pointer", "To indicate no return value", "To allocate memory", "To define a constant"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of `int x = 5; printf(\"%d\", x++);`?",
+    "options": ["5", "6", "4", "Error"],
+    "answer": 0
+  },
+  {
+    "question": "Which function is used to allocate memory dynamically in C?",
+    "options": ["alloc()", "malloc()", "calloc()", "Both b and c"],
+    "answer": 3
+  },
+  {
+    "question": "What happens if you dereference a NULL pointer?",
+    "options": ["Returns 0", "Program crashes", "Undefined behavior", "Compiles but does nothing"],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword is used to define a macro in C?",
+    "options": ["#define", "#macro", "const", "static"],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of `printf(\"%d\", sizeof(char));`?",
+    "options": ["1", "2", "4", "8"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a storage class in C?",
+    "options": ["auto", "public", "private", "protected"],
+    "answer": 0
+  },
+  {
+    "question": "What does the `return 0` statement in `main()` indicate?",
+    "options": ["Program failed", "Program succeeded", "Returns null", "Infinite loop"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator is used to access structure members via a pointer?",
+    "options": [".", "->", "*", "&"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the `static` keyword in a function?",
+    "options": ["Makes variable persistent", "Restricts scope to file", "Allocates memory dynamically", "Prevents modification"],
+    "answer": 0
+  },
+  {
+    "question": "Which function is used to free dynamically allocated memory?",
+    "options": ["delete()", "free()", "release()", "dealloc()"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of `int a = 10 / 3; printf(\"%d\", a);`?",
+    "options": ["3", "3.33", "4", "Error"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is not a valid format specifier in C?",
+    "options": ["%d", "%f", "%s", "%z"],
+    "answer": 3
+  },
+  {
+    "question": "What does the `continue` statement do in a loop?",
+    "options": ["Exits the loop", "Skips the current iteration", "Restarts the loop", "Pauses execution"],
+    "answer": 1
+  },
+  {
+    "question": "Which header file provides string manipulation functions?",
+    "options": ["<stdio.h>", "<stdlib.h>", "<string.h>", "<math.h>"],
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of the `extern` keyword?",
+    "options": ["Declares a variable without defining it", "Makes a variable constant", "Allocates memory", "Defines a function"],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of `int x = 5; printf(\"%d\", ++x);`?",
+    "options": ["5", "6", "4", "Error"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is a correct way to declare a function pointer?",
+    "options": ["int *func()", "int (*func)()", "int func*()", "int &func()"],
+    "answer": 1
+  },
+  {
+    "question": "What does the `volatile` keyword signify?",
+    "options": ["Variable can’t be modified", "Variable may change unexpectedly", "Variable is constant", "Variable is static"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator performs a bitwise AND?",
+    "options": ["&&", "&", "|", "^"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the `#include` directive?",
+    "options": ["Defines a macro", "Includes a header file", "Declares a variable", "Links a library"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of `printf(\"%c\", 65);`?",
+    "options": ["65", "A", "a", "Error"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is a correct way to declare an array in C?",
+    "options": ["int arr[5];", "int arr(5);", "array int[5];", "int[5] arr;"],
+    "answer": 0
+  },
+  {
+    "question": "What does the `scanf()` function do?",
+    "options": ["Prints output", "Reads input", "Allocates memory", "Compares strings"],
+    "answer": 1
+  },
+  {
+    "question": "What is the size of a `float` in C on a 32-bit system?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "1 byte"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is not a valid loop in C?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of the `union` keyword?",
+    "options": ["Defines multiple variables", "Shares memory among variables", "Creates a pointer", "Declares a function"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of `int x = 1; printf(\"%d\", x << 1);`?",
+    "options": ["1", "2", "0", "Error"],
+    "answer": 1
+  },
+  {
+    "question": "Which function converts a string to an integer?",
+    "options": ["atoi()", "itoa()", "sprintf()", "strlen()"],
+    "answer": 0
+  },
+  {
+    "question": "What does the `typedef` keyword do?",
+    "options": ["Defines a macro", "Creates an alias for a data type", "Declares a pointer", "Allocates memory"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of `int a[2] = {1, 2}; printf(\"%d\", a[2]);`?",
+    "options": ["1", "2", "Undefined behavior", "0"],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword is used to define a structure in C?",
+    "options": ["class", "struct", "union", "type"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the `#ifndef` directive?",
+    "options": ["Includes a file", "Prevents multiple inclusions", "Defines a constant", "Declares a variable"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of `printf(\"%d\", 5 > 3 ? 1 : 0);`?",
+    "options": ["0", "1", "5", "3"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is a preprocessor directive?",
+    "options": ["#include", "int", "return", "void"],
+    "answer": 0
+  },
+  {
+    "question": "What does the `realloc()` function do?",
+    "options": ["Frees memory", "Resizes allocated memory", "Allocates new memory", "Copies memory"],
+    "answer": 1
+  }
+];
+app.get('/c', (req, res) => {
+    res.send(ctest);
+});
 app.get('/python', (req, res) => {
     res.send(pythontest);
 });
@@ -1014,5 +1269,6 @@ app.get('/java', (req, res) => {
 });
 console.log(javatest.length);
 console.log(pythontest.length)
+console.log(ctest.length);
 // Start the server
 app.listen(3001, () => console.log('API running on http://localhost:3001'));
