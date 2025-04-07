@@ -238,26 +238,6 @@ let pythontest = [
     "answer": 1
   },
   {
-    "question": "Write a Python function that takes a number and returns whether it is even or odd.",
-    "options": [
-      "Even if the number is divisible by 2, else odd.",
-      "Odd if the number is divisible by 2, else even.",
-      "Even if the number is odd, else odd.",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What is the correct way to handle exceptions in Python?",
-    "options": [
-      "try...catch",
-      "try...except",
-      "try...finally",
-      "None of the above"
-    ],
-    "answer": 1
-  },
-  {
     "question": "What is a dictionary in Python? Provide an example.",
     "options": [
       "A collection of key-value pairs.",
@@ -282,7 +262,7 @@ let pythontest = [
     "options": [
       "int, float, string, list",
       "int, double, char, string",
-      "string, boolean, set, tuple",
+      "string, char, set, tuple",
       "None of the above"
     ],
     "answer": 0
@@ -298,7 +278,7 @@ let pythontest = [
     "answer": 1
   },
   {
-    "question": "Write a Python program to check if a given number is prime or not.",
+    "question": "How to check if a given number is prime or not.",
     "options": [
       "The number is prime if it has no divisors other than 1 and itself.",
       "The number is prime if it is divisible by 2.",
@@ -306,19 +286,9 @@ let pythontest = [
       "None of the above"
     ],
     "answer": 0
-  },
+  }
   {
-    "question": "What is the difference between `deepcopy()` and `copy()` in Python?",
-    "options": [
-      "deepcopy creates a new object, copy does not.",
-      "deepcopy copies references, copy does not.",
-      "Both work the same.",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "question": "What is list comprehension? Provide an example of how you would use it to create a list of squares from 1 to 10.",
+    "question": "What is list comprehension?"
     "options": [
       "A concise way to create lists using a single line of code.",
       "A way to create lists using loops.",
