@@ -298,7 +298,7 @@ let pythontest = [
     "answer": 0
   },
   {
-    "question": "Explain the concept of decorators in Python and give an example of a simple decorator.",
+    "question": "Explain the concept of decorators in Python ",
     "options": [
       "A decorator is a function that modifies the behavior of another function.",
       "A decorator is a class that modifies the behavior of a function.",
@@ -336,16 +336,6 @@ let pythontest = [
       "None of the above"
     ],
     "answer": 1
-  },
-  {
-    "question": "Explain the concept of generators in Python. How do they differ from normal functions?",
-    "options": [
-      "Generators use the 'yield' keyword and can be paused and resumed.",
-      "Generators are used for error handling.",
-      "Generators are functions without parameters.",
-      "None of the above"
-    ],
-    "answer": 0
   },
   {
     "question": "What are Python's built-in data structures? Describe each briefly.",
@@ -477,26 +467,7 @@ let pythontest = [
   ],
   "answer": 2
   },
-    {
-    "question": "How do you create a one-element tuple in Python?",
-    "options": [
-      "t = (1)",
-      "t = (1,)",
-      "t = 1,",
-      "Both b and c"
-    ],
-    "answer": 3
-    },
-    {
-    "question": "What happens when you execute a = [1, 2, 3] followed by b = a?",
-    "options": [
-      "b becomes a reference to the same list object as a",
-      "b becomes a new list with the same elements as a",
-      "a becomes a reference to the same list object as b",
-      "a and b are both integers with value 3"
-    ],
-    "answer": 0
-    },
+
     {
     "question": "Which statement correctly describes Python's handling of indentation?",
     "options": [
