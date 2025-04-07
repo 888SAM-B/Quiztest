@@ -754,9 +754,265 @@ let pythontest = [
 
 
 ]
+let javatest = [
+  {
+    "question": "What is the size of an int variable in Java?",
+    "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+    "answer": 2
+  },
+  {
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherit", "super"],
+    "answer": 1
+  },
+  {
+    "question": "What is the default value of a boolean variable?",
+    "options": ["true", "false", "0", "null"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is not a Java access modifier?",
+    "options": ["public", "private", "protected", "static"],
+    "answer": 3
+  },
+  {
+    "question": "What is the output of System.out.println(5 + 3 + \"Hello\");?",
+    "options": ["8Hello", "Hello8", "53Hello", "Compilation error"],
+    "answer": 0
+  },
+  {
+    "question": "Which method is the entry point of a Java application?",
+    "options": ["start()", "run()", "main()", "init()"],
+    "answer": 2
+  },
+  {
+    "question": "Which of these is a valid variable name in Java?",
+    "options": ["1variable", "$variable", "variable-name", "class"],
+    "answer": 1
+  },
+  {
+    "question": "What does JVM stand for?",
+    "options": ["Java Virtual Machine", "Java Variable Manager", "Java Version Monitor", "Java Visual Model"],
+    "answer": 0
+  },
+  {
+    "question": "Which keyword is used to define a constant in Java?",
+    "options": ["const", "final", "static", "immutable"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is not a primitive data type in Java?",
+    "options": ["int", "float", "String", "char"],
+    "answer": 2
+  },
+  {
+    "question": "What is the parent class of all classes in Java?",
+    "options": ["Class", "Object", "System", "Main"],
+    "answer": 1
+  },
+  {
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "answer": 2
+  },
+  {
+    "question": "What does the break statement do in a loop?",
+    "options": ["Skips the current iteration", "Exits the loop entirely", "Restarts the loop", "Pauses the loop"],
+    "answer": 1
+  },
+  {
+    "question": "Which collection class allows duplicate elements?",
+    "options": ["Set", "List", "Map", "Queue"],
+    "answer": 1
+  },
+  {
+    "question": "What is the return type of the main() method in Java?",
+    "options": ["int", "void", "String", "boolean"],
+    "answer": 1
+  },
+  {
+    "question": "Which operator is used to compare object references in Java?",
+    "options": ["==", "equals()", "=", "instanceof"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of the super keyword?",
+    "options": ["To call a superclass constructor", "To create a new object", "To terminate a program", "To define a variable"],
+    "answer": 0
+  },
+  {
+    "question": "Which exception is thrown when dividing by zero?",
+    "options": ["NullPointerException", "ArithmeticException", "IOException", "ClassNotFoundException"],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to handle exceptions in Java?",
+    "options": ["try", "catch", "throw", "throws"],
+    "answer": 1
+  },
+  {
+    "question": "What is the default value of an Object reference?",
+    "options": ["0", "null", "false", "undefined"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is an interface in Java?",
+    "options": ["ArrayList", "List", "String", "Thread"],
+    "answer": 1
+  },
+  {
+    "question": "What does the this keyword refer to?",
+    "options": ["The current class instance", "The superclass", "A static method", "A new object"],
+    "answer": 0
+  },
+  {
+    "question": "Which method is used to start a thread in Java?",
+    "options": ["run()", "start()", "execute()", "begin()"],
+    "answer": 1
+  },
+  {
+    "question": "What is the size of a char in Java?",
+    "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is a wrapper class in Java?",
+    "options": ["int", "Integer", "String", "char"],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of System.out.println(\"Hello\".length());?",
+    "options": ["4", "5", "6", "Compilation error"],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword prevents method overriding?",
+    "options": ["static", "final", "abstract", "private"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the transient keyword?",
+    "options": ["To make a variable constant", "To exclude a variable from serialization", "To make a method abstract", "To define a static variable"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is not a feature of Java?",
+    "options": ["Platform independence", "Pointer arithmetic", "Multithreading", "Garbage collection"],
+    "answer": 1
+  },
+  {
+    "question": "What does the synchronized keyword do?",
+    "options": ["Prevents multiple threads from accessing a block simultaneously", "Makes a method faster", "Creates a new thread", "Stops a thread"],
+    "answer": 0
+  },
+  {
+    "question": "Which collection does not allow null elements?",
+    "options": ["ArrayList", "HashSet", "ConcurrentHashMap (keys)", "LinkedList"],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of int x = 5; System.out.println(x++);?",
+    "options": ["5", "6", "4", "Compilation error"],
+    "answer": 0
+  },
+  {
+    "question": "Which package is implicitly imported in every Java program?",
+    "options": ["java.util", "java.lang", "java.io", "java.net"],
+    "answer": 1
+  },
+  {
+    "question": "What is encapsulation in Java?",
+    "options": ["Hiding data using private modifiers", "Inheriting from multiple classes", "Overriding methods", "Creating threads"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a checked exception?",
+    "options": ["NullPointerException", "IOException", "ArrayIndexOutOfBoundsException", "IllegalArgumentException"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the finally block?",
+    "options": ["To catch exceptions", "To execute code regardless of an exception", "To throw an exception", "To define a loop"],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to implement multiple inheritance-like behavior in Java?",
+    "options": ["extends", "implements", "super", "this"],
+    "answer": 1
+  },
+  {
+    "question": "What is polymorphism in Java?",
+    "options": ["One class having multiple constructors", "One interface, multiple implementations", "Hiding data", "Creating static methods"],
+    "answer": 1
+  },
+  {
+    "question": "Which method converts a string to an integer?",
+    "options": ["Integer.parseInt()", "String.valueOf()", "Integer.toString()", "System.parseInt()"],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of System.out.println(10 > 5 ? \"Yes\" : \"No\");?",
+    "options": ["Yes", "No", "true", "false"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a marker interface?",
+    "options": ["Runnable", "Serializable", "Comparable", "Iterator"],
+    "answer": 1
+  },
+  {
+    "question": "What is the default capacity of an ArrayList?",
+    "options": ["5", "10", "15", "20"],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to define an abstract class?",
+    "options": ["abstract", "interface", "final", "static"],
+    "answer": 0
+  },
+  {
+    "question": "What does the equals() method compare by default?",
+    "options": ["Object references", "Object content", "Variable names", "Class types"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a valid constructor declaration?",
+    "options": ["public void ClassName()", "public ClassName()", "ClassName() void", "static ClassName()"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the hashCode() method?",
+    "options": ["To generate a unique string", "To return an integer representation of an object", "To compare two strings", "To sort a collection"],
+    "answer": 1
+  },
+  {
+    "question": "Which loop is best for iterating over a collection?",
+    "options": ["for", "while", "do-while", "enhanced for (foreach)"],
+    "answer": 3
+  },
+  {
+    "question": "What is the output of System.out.println(\"abc\".equals(\"ABC\"));?",
+    "options": ["true", "false", "null", "Compilation error"],
+    "answer": 1
+  },
+  {
+    "question": "Which of these cannot be instantiated directly?",
+    "options": ["Class", "Abstract class", "Object", "String"],
+    "answer": 1
+  },
+  {
+    "question": "What is the purpose of the static keyword?",
+    "options": ["To make a variable constant", "To associate a member with the class rather than an instance", "To prevent inheritance", "To define an interface"],
+    "answer": 1
+  }
+];
 app.get('/python', (req, res) => {
     res.send(pythontest);
 });
+app.get('/java', (req, res) => {
+    res.send(javatest);
+});
+console.log(javatest.length);
 console.log(pythontest.length)
 // Start the server
 app.listen(3001, () => console.log('API running on http://localhost:3001'));
