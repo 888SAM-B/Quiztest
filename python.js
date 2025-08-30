@@ -1258,6 +1258,9 @@ let ctest = [
     "answer": 1
   }
 ];
+app.get('/',(req,res) => {
+  res.send("Hello from quiztest server");
+});
 app.get('/c', (req, res) => {
     res.send(ctest);
 });
